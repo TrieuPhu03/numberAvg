@@ -6,7 +6,7 @@ public class Main {
         final int countNumber = 5;
         int sum = 0;
 
-        for(int i =1; i < countNumber; i++){
+        for(int i =1; i <= countNumber; i++){
             System.out.println("Vui long nhap so nguyen thu: " + i );
             int numb = sc.nextInt();
             sum += numb;
@@ -15,6 +15,8 @@ public class Main {
         double numAveg = (double) sum / countNumber;
 
         System.out.println("Gia tri trung binh la: " + numAveg);
+
+        sc.close();
 
     }
 }
